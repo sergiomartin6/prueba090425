@@ -9,6 +9,7 @@ public class Aplicacion {
 		Controlador controlador= new Controlador();
 		Interfaz interfaz= new Interfaz(controlador);
 		controlador.setInterfaz(interfaz);
+		System.Out.Println("Hola desde Github");
 
 	}
 
